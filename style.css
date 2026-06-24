@@ -3,9 +3,7 @@
     src: url(./font/Sk-Modernist-Font/Sk-Modernist-Bold.otf);
 }
 
-/* =====================
-        ROOT
-===================== */
+/* ROOT */
 :root {
     --primary-color:#cccccc;
     --text-color:#ffffff;
@@ -32,9 +30,7 @@ body {
     overflow-x:hidden;
 }
 
-/* =====================
-        NAVBAR
-===================== */
+/* NAVBAR */
 .nav {
     position:sticky;
     top:12px;
@@ -110,9 +106,7 @@ body {
     translateY(-2.5px)
 }
 
-/* =====================
-        HERO
-===================== */
+/* HERO */
 .detales {
     min-height:85vh;
     width:min(1300px,90%);
@@ -172,9 +166,7 @@ body {
     translateY(-9px)
 }
 
-/* =====================
-        BUTTONS
-===================== */
+/* BUTTONS */
 
 .btn-primary {
     background:white;
@@ -228,9 +220,7 @@ body {
     transform:scale(.98);
 }
 
-/* =====================
-          FOOTER
-===================== */
+/* FOOTER */
 
 .footer {
     margin-top:100px;
@@ -357,9 +347,7 @@ body {
     font-size:14px;
 }
 
-/* =====================
-      LARGE DESKTOP
-===================== */
+/* LARGE DESKTOP */
 
 @media (min-width:1500px){
     .detales{
@@ -371,10 +359,7 @@ body {
     }
 }
 
-/* =====================
-        LAPTOP
-    1200px - 1499px
-===================== */
+/* LAPTOP 1200px - 1499px */
 
 @media (max-width:1200px){
     .nav{
@@ -410,10 +395,7 @@ body {
     }
 }
 
-/* =====================
-        TABLET
-    768px - 1024px
-===================== */
+/* TABLET 768px - 1024px */
 
 @media (max-width:1024px){
     .social-links {
@@ -464,10 +446,7 @@ body {
     }
 }
 
-/* =====================
-        MOBILE
-        below 768px
-===================== */
+/* MOBILE below 768px */
 
 @media(max-width:767px){
     .nav{
@@ -551,10 +530,7 @@ body {
 
 }
 
-/* =====================
-        SMALL PHONES
-        below 400px
-===================== */
+/* SMALL PHONES below 400px */
 
 @media(max-width:400px){
     .menu{
